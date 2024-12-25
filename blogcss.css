@@ -1,0 +1,96 @@
+/* 通用 */
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+}
+ul {
+    padding-left: 0%;
+}
+
+/* 左侧 */
+.left {
+    float: left;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(48, 45, 45);
+}
+
+.blog_avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.blog_avatar img {
+    width: 100%;
+}
+
+.blog_usename {
+    color: rgb(211, 208, 208);
+    font-size: 24px;
+    margin: 100px;
+    text-align: center;
+}
+
+.blog_link {
+    font-size: 24px;
+    margin: 120px;
+    text-align: center;
+}
+
+.blog_link a {
+    color: rgb(158, 157, 157);
+}
+.blog_link a:hover {
+    color: white;
+}
+
+.blog_tag {
+    color: antiquewhite;
+    font-size: 24px;
+    margin: 150px;
+    text-align: center;
+}
+/* 右侧 */
+
+.right {
+    float: right;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.artcle {
+    background-color: rgb(204, 199, 195);
+    margin: 30px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.artcle_title{
+    text-indent: 1em;
+    border-left: 20px solid orange;
+}
+.title {
+    font-size: 36px;
+
+}
+.date {
+    float: right;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.artcle_content {
+    text-indent: 2.2em;
+}
+.artcle_bottom {
+    text-indent: 2em;
+    padding: 10px;
+}
